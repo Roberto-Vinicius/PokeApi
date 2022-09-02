@@ -1,0 +1,24 @@
+.NavBar_container {
+    background-color: #4B4B4B;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.NavBar_container img {
+    height: 50px;
+}
+
+@media (max-width: 600px) {
+    .NavBar_container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .NavBar_container img {
+        width: 100px;
+    }
+}

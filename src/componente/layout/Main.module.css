@@ -1,0 +1,10 @@
+.mainContainer {
+  background: grey;
+  text-align: center;
+}
+
+.mainContainer h1 {
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
